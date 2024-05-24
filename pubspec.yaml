@@ -1,5 +1,5 @@
 name: flakka_element
-description: A journal-snapshot binding
+description: The base domain-level component
 version: 0.1.0+1
 publish_to: none
 
@@ -10,3 +10,9 @@ dev_dependencies:
   mocktail: ^1.0.3
   test: ^1.25.2
   very_good_analysis: ^5.1.0
+dependencies:
+  fpdart:
+    git:
+      url: https://github.com/SandroMaglione/fpdart
+      ref: effect-refactor
+      path: packages/fpdart
